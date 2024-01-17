@@ -32,7 +32,7 @@ text-align: center;}
 
 .imagen-portada{
     height: 13.5vh;
-
+    
 }
 
 /* Inicio del Main */
@@ -166,6 +166,7 @@ align-items: center;
         margin-bottom: 3rem;
         border-style: ridge;
         color: rgb(0, 0, 0);
+        
          }
 
         .instagram-texto{font-size: 2rem; background-color: rgb(245, 245, 220);
