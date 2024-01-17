@@ -32,7 +32,17 @@ text-align: center;}
 
 .imagen-portada{
     height: 13.5vh;
-    
+    border-style: ridge;
+        color: rgb(0, 0, 0);
+}
+
+.portadas{
+font-size: 0.8rem;
+font-weight: 700;
+font-style: italic;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 
@@ -163,8 +173,6 @@ align-items: center;
     .imagen-portada{
         width: 85vh;
         height: 30vh;
-        margin-left: 30%;
-        margin-bottom: 3rem;
         border-style: ridge;
         color: rgb(0, 0, 0);
         
