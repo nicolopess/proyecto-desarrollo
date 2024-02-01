@@ -1,0 +1,46 @@
+.logo-pagina{ 
+width: 6rem;
+border-radius: 5rem;
+border-style: ridge;
+color: $colordos;
+}
+             
+.links{
+text-decoration: none;
+color: $colordos;
+font-weight: 800;
+display: flex;
+flex-direction: column;
+text-align: center;
+margin: 0.5rem;
+}
+
+.nombre-empresa{
+font-size: 1.5rem;
+font-weight: 600;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagen-portada{
+height: 6rem;
+border-style: ridge;
+color: $colordos;
+}
+
+.portadas{
+font-size: 0.8rem;
+font-weight: 700;
+font-style: italic;
+display: flex;
+flex-direction: column;
+align-items: center;
+   }
+
+
+
+    
+
+    
+
+    

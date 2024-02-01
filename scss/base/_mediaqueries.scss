@@ -1,0 +1,112 @@
+@media only screen and (min-width: 900px){
+
+// Edicion inicio y header
+
+.links{
+margin: 2rem;
+display: flex;
+margin-left: 10rem;
+&:hover {
+transform: scale(2);
+transition: all .4s;
+}
+}
+
+.nombre-empresa{
+font-size: 5rem;
+margin: 2rem; 
+padding: 2rem;
+background-color: $Coloruno;
+}
+
+.imagen-portada{
+width: 85vh;
+height: 30vh;
+border-style: ridge;
+color: $colordos;
+}
+
+
+.instagram-texto{
+font-size: 2rem; 
+background-color: $Coloruno;
+margin-top: 1.5rem;
+}
+           
+.instagram-texto2{
+font-size: 3rem;
+}
+                
+// Fin de inicio y header 
+
+// Pagina redes
+.ubicacion{
+background-color: $Coloruno;
+margin: 5rem;
+.texto-mapa{
+margin-top: 4rem;
+font-size: 4rem;
+text-decoration: underline;
+}
+.mapa{
+height: 30rem; 
+width: 70vh; 
+margin-top: 1.5rem;
+}
+} 
+// Fin de pagina redes
+
+// Pagina turnos
+
+.info-turnos{
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: $colortres;
+
+.cuadro{
+height: 50vh; 
+width: 90vh;
+}
+.boton{
+width: 20vh;
+margin-left: 30rem;
+margin-top: 0.5rem;
+&:hover{
+transform: scale(1.5);
+transition: all .4s;}
+}
+}  
+// fin de pagina turnos
+
+// Edicion carousels
+
+.carousel-edicion{display: flex;
+flex-direction: column;
+align-items: center;
+background-color: $Coloruno;
+margin: 2rem;
+&:hover {
+transition: all .4s;
+};
+}
+
+// Fin de carousels
+
+// Footer
+
+.footer{
+margin: 3rem;
+margin-top: 5rem;
+
+.footer-texto{
+font-size: 5rem;
+}
+    
+.tarjetas{
+height: 25rem;
+width: 55rem;}
+}
+}
+
+// Fin de footer

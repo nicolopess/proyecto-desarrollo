@@ -1,0 +1,265 @@
+*{font-family: 'Kalnia', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;}
+    
+    /* Inicio del header */
+    
+    .logo-pagina{ 
+    width: 6rem;
+    border-radius: 5rem;
+    border-style: ridge;
+    color: rgb(0, 0, 0);
+            
+    }
+    
+    .nombre-empresa{
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: rgb(245, 245, 220);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+    }
+    
+    .links{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    text-align: center;}
+    
+    .imagen-portada{
+    height: 13.5vh;
+    border-style: ridge;
+    color: rgb(0, 0, 0);
+    }
+    
+    .portadas{
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    
+    /* Inicio del Main */
+    
+    .servicios{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    }
+    
+    .productos{
+    margin-top: 2rem;
+    font-size: 1.2rem;}
+    
+    .redes{
+    margin-top: 2rem;
+    font-size: 1.2rem;}
+    
+    .carousel-caption {
+    height: 600;
+    width: 600;
+    color: rgb(0, 0, 0);
+    }
+    
+    .instagram{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .instagram-texto{
+    font-size: 1rem;
+    ; color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
+    
+    .opciones-productos{
+    text-align: center;}
+    
+    
+    .footer{
+    margin-top: 3rem;
+    font-size: 0.7rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;}
+    
+    /* Fin del index */
+    
+    /* Inicio page servicios */
+    
+    .iniciopages{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: right;
+            
+    }
+    
+    .cabecera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    }
+    
+    .opciones-servicios{
+    margin: 2rem;
+    }
+    
+    .edicion-servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+        
+    /* Fin page servicios */
+    
+    /* Inicio page productos */
+    
+    .edicion-productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .edicion-productos{
+    margin-top: 2rem;
+            
+    }
+    
+    /* Fin page productos */
+    
+    /* Inicio page redes */
+    
+        .instagram-texto2{
+    font-size: 0.8rem;
+    color: rgb(14, 9, 9);
+    text-decoration: none;
+    ; margin: 2rem;
+    }
+    
+    .page-instagram{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem; background-color: rgb(245, 245, 220);
+    }
+    
+    .mapa{
+    height: 40vh;
+    width: 40vh;}
+        
+    .ubicacion{
+    background-color: rgb(245, 245, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    /* Fin page redes */
+    
+    /* Inicio page contacto */
+        
+    .info-turnos{
+    margin:2rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+    
+    .titulo-turno{
+    margin: 2rem;
+    font-size: 1.8rem;
+    }
+    
+    .aclaracion-turno{
+    background-color: rgb(245, 245, 220);
+    }
+    
+    
+    /* Fin page contacto */
+    
+    @media only screen and (min-width: 900px){
+    
+    .links{
+     margin: 2rem;
+    display: flex;
+    margin-left: 10rem;
+    
+    }
+       
+    .imagen-portada{
+    width: 85vh;
+    height: 30vh;
+    border-style: ridge;
+    color: rgb(0, 0, 0);
+            
+    }
+    
+    .instagram-texto{
+    font-size: 2rem; 
+    background-color: rgb(245, 245, 220);
+    margin-top: 1.5rem;
+    }
+           
+    .instagram-texto2{
+    font-size: 3rem;
+    }
+            
+    .mapa{
+    height: 47vh; 
+    width: 70vh; 
+    margin-top: 1.5rem;
+    }
+            
+    .cuadro{
+    height: 50vh; 
+    width: 90vh;
+    }
+    
+    .boton{
+    width: 20vh;
+    margin-left: 30rem;
+    margin-top: 0.5rem;}
+    
+        .footer{
+    margin: 3rem;
+    margin-top: 10rem;}
+    
+    .servicios{
+    font-size: 4rem;
+    }
+    
+    .productos{
+    font-size: 4rem;
+    margin-top: 5rem;
+    }
+    
+    .redes{
+    font-size: 4rem;
+    }
+    
+    .opciones-servicios{
+    font-size: 3rem;
+    }
+    
+    .opciones-productos{
+    font-size: 3rem;
+    }
+    
+    .nombre-empresa{
+    font-size: 5rem;
+    margin: 2rem; 
+    padding: 2rem;
+    }
+    
+    .ubicacion{
+    margin: 2rem;
+    }
+    
+          }

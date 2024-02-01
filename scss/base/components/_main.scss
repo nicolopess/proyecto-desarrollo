@@ -1,0 +1,80 @@
+// Pagina de inicio y header
+
+.redes{
+margin-top: 2rem;
+font-size: 1.2rem;}
+    
+.instagram{
+height: 15vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+.instagram-texto{
+font-size: 0.9rem;
+color: $colordos;
+text-decoration: none;
+font-weight: bolder;
+}
+}
+            
+// Fin de pagina inicio y header
+
+// Edicion de carousels
+
+.carousel-edicion{display: flex;
+flex-direction: column;
+align-items: center;
+background-color: $Coloruno;
+margin-top: 3rem;
+}
+
+// Fin edicion carousels
+
+// Pagina redes
+
+.instagram-texto2{
+font-size: 0.8rem;
+color: $colordos;
+text-decoration: none;
+; margin: 2rem;
+}
+    
+.page-instagram{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 2rem; background-color: $Coloruno;
+}
+    
+.mapa{
+height: 40vh;
+width: 40vh;
+}
+        
+.ubicacion{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+// Fin de pagina redes
+
+// Pagina contacto
+
+.info-turnos{
+margin: 1rem; 
+display: flex;
+flex-direction: column;
+align-items: center;}
+    
+.titulo-turno{
+margin: 2rem;
+font-size: 1.8rem;
+}
+    
+.aclaracion-turno{
+background-color: $Coloruno;
+}
+
+// Fin de pagina contacto
