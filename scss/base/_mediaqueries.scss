@@ -25,8 +25,7 @@ height: 30vh;
 border-style: ridge;
 color: $colordos;
 }
-           
-}                
+                          
 // Fin de inicio y header 
 
 // Pagina redes
@@ -37,14 +36,28 @@ margin: 5rem;
 .texto-mapa{
 margin-top: 4rem;
 font-size: 4rem;
-text-decoration: underline;
 }
 .mapa{
 height: 30rem; 
 width: 70vh; 
 margin-top: 1.5rem;
 }
-} 
+}
+
+.page-instagram{
+display: flex;
+.instagram{
+height: 20rem;
+}
+.instagram-texto2{
+font-size: 1.5rem;
+&:hover{
+transform: scale(2.5);
+transition: all .3s;
+}
+}
+}
+
 // Fin de pagina redes
 
 // Pagina turnos
@@ -99,5 +112,5 @@ height: 25rem;
 width: 55rem;}
 }
 
-
+}
 // Fin de footer

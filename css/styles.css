@@ -5,11 +5,11 @@
 }
 .footer .footer-texto {
   font-size: 1.5rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .footer .tarjetas {
   height: 9rem;
-  width: 16rem;
+  width: 17.5rem;
   margin-bottom: 2rem;
 }
 
@@ -57,32 +57,11 @@
   font-size: 1.2rem;
 }
 
-.instagram {
-  height: 15vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.instagram .instagram-texto {
-  font-size: 0.9rem;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-weight: bolder;
-}
-
 .carousel-edicion {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(245, 245, 220);
   margin-top: 3rem;
-}
-
-.instagram-texto2 {
-  font-size: 0.8rem;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  margin: 2rem;
 }
 
 .page-instagram {
@@ -90,18 +69,26 @@
   flex-direction: column;
   align-items: center;
   margin: 2rem;
-  background-color: rgb(245, 245, 220);
 }
-
-.mapa {
-  height: 40vh;
-  width: 40vh;
+.page-instagram .instagram-texto2 {
+  font-size: 0.9rem;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin: 2rem;
+}
+.page-instagram .instagram {
+  height: 9rem;
 }
 
 .ubicacion {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.ubicacion .mapa {
+  height: 40vh;
+  width: 40vh;
 }
 
 .info-turnos {
@@ -142,14 +129,6 @@
     border-style: ridge;
     color: rgb(0, 0, 0);
   }
-  .instagram-texto {
-    font-size: 2rem;
-    background-color: rgb(245, 245, 220);
-    margin-top: 1.5rem;
-  }
-  .instagram-texto2 {
-    font-size: 3rem;
-  }
   .ubicacion {
     background-color: rgb(245, 245, 220);
     margin: 5rem;
@@ -157,12 +136,24 @@
   .ubicacion .texto-mapa {
     margin-top: 4rem;
     font-size: 4rem;
-    text-decoration: underline;
   }
   .ubicacion .mapa {
     height: 30rem;
     width: 70vh;
     margin-top: 1.5rem;
+  }
+  .page-instagram {
+    display: flex;
+  }
+  .page-instagram .instagram {
+    height: 20rem;
+  }
+  .page-instagram .instagram-texto2 {
+    font-size: 1.5rem;
+  }
+  .page-instagram .instagram-texto2:hover {
+    transform: scale(2.5);
+    transition: all 0.3s;
   }
   .info-turnos {
     display: flex;
