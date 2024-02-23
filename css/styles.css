@@ -132,6 +132,8 @@
   .ubicacion {
     background-color: rgb(245, 245, 220);
     margin: 5rem;
+    border: 3px;
+    border-radius: 25px;
   }
   .ubicacion .texto-mapa {
     margin-top: 4rem;
@@ -160,6 +162,8 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(138, 138, 52);
+    border: 3px;
+    border-radius: 50px;
   }
   .info-turnos .cuadro {
     height: 50vh;
@@ -179,6 +183,8 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(245, 245, 220);
+    border: 3px;
+    border-radius: 25px;
     margin: 2rem;
   }
   .carousel-edicion:hover {
@@ -192,7 +198,7 @@
     font-size: 5rem;
   }
   .footer .tarjetas {
-    height: 25rem;
+    height: 20rem;
     width: 55rem;
   }
 }

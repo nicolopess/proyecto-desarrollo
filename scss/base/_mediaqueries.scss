@@ -33,6 +33,8 @@ color: $colordos;
 .ubicacion{
 background-color: $Coloruno;
 margin: 5rem;
+border: 3px;
+border-radius: 25px;
 .texto-mapa{
 margin-top: 4rem;
 font-size: 4rem;
@@ -67,6 +69,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 background-color: $colortres;
+border: 3px;
+border-radius: 50px;
 
 .cuadro{
 height: 50vh; 
@@ -89,6 +93,8 @@ transition: all .4s;}
 flex-direction: column;
 align-items: center;
 background-color: $Coloruno;
+border: 3px;
+border-radius: 25px;
 margin: 2rem;
 &:hover {
 transition: all .4s;
@@ -108,7 +114,7 @@ font-size: 5rem;
 }
     
 .tarjetas{
-height: 25rem;
+height: 20rem;
 width: 55rem;}
 }
 
